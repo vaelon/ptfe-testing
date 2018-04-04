@@ -7,4 +7,7 @@ provider "aws" {
 resource "aws_instance" "amy-testing" {
   ami           = "ami-1853ac65"
   instance_type = "t2.micro"
+  tags {
+    "Name" = "amy test"
+  }
 }

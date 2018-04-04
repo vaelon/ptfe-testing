@@ -9,5 +9,6 @@ resource "aws_instance" "amy-testing" {
   instance_type = "t2.micro"
   tags {
     "Name" = "amy test"
+    "Tag1" = "tag 1"
   }
 }

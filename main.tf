@@ -12,21 +12,3 @@ resource "aws_instance" "amy-testing" {
     "Tag1" = "tag 1"
   }
 }
-
-resource "aws_instance" "amy-testing-2" {
-  ami           = "ami-1853ac65"
-  instance_type = "t2.micro"
-  tags {
-    "Name" = "amy test 2"
-    "Tag1" = "tag 1"
-  }
-}
-
-resource "aws_instance" "amy-testing-3" {
-  ami           = "ami-1853ac65"
-  instance_type = "t2.micro"
-  tags {
-    "Name" = "amy test 3"
-    "Tag1" = "tag 1"
-  }
-}

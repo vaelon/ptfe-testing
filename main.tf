@@ -10,5 +10,6 @@ resource "aws_instance" "amy-testing" {
   tags {
     "Name" = "amy test"
     "Tag1" = "tag 1"
+    "Tag2" = "tag 2"
   }
 }
